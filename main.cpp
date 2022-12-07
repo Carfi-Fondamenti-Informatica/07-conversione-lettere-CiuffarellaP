@@ -1,12 +1,14 @@
 #include <iostream>
+#include "lib.h"
+using namespace std;
 
 int main(){
-  char a;
-    cin>>a;
-    if(funzione(a)){
-        cout<<"vero"<<endl<<a;
-    }else{
-        cout<<"falso";
-    }
+  char a=0;
+  cin >> a;
+  if(funzione(a)){
+    cout<<a<<endl;
+  }else{
+    cout<<"errore"<<endl;
+  }
   return 0;
 }
